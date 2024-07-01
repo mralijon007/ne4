@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.a1{
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 30px;
+}
+.main{
+    margin: 50px;
+    height: 465px   ;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    border-radius: 30px;
+    border-radius: 30px;
+}
+.a1:hover{
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+.left_text{
+    padding: 20px 20px;
+    font-size: 30px;
+    padding-left: 20px;
+}
+.a2{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
